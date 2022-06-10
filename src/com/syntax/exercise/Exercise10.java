@@ -16,16 +16,17 @@ public class Exercise10 {
 		int max=x[0];
 		int mi=0;
 		for(int y=0; y<size; y++) {
-			if(max<x[y]) {
+			if(x[y]>max) {
+				max=x[y];
 				mi=y;
 			}
 		}
-		int max2=0;
+		int max2=x[0];
 		for(int j=0; j<size; j++) {
 			if(j==mi) {
 				continue;
 			}
-			if(max2<x[j]) {
+			if(x[j]>max2) {
 				max2=x[j];
 			}
 		}

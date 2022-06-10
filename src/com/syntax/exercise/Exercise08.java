@@ -7,7 +7,8 @@ public class Exercise08 {
 		int x=0;
 		int y=1;
 		System.out.println(x);
-		for(int i=0; i<5; i++) {
+		System.out.println(y);
+		for(int i=0; i<4; i++) {
 		System.out.println(x+y);
 		x=x+y;
 		System.out.println(x+y);

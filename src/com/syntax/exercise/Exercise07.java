@@ -9,10 +9,10 @@ public class Exercise07 {
 		Scanner sc=new Scanner(System.in);
 		int x=sc.nextInt();
 		sc.close();
-		String pri="qwerty";
-		if(x<1) {
+		String pri="";
+		if(x<2) {
 			pri="not prime";
-		}else if(x==1 || x==2 || x==3) {
+		}else if(x==2 || x==3) {
 				pri="prime";
 		}else {
 			for(int i=2; i<=x/2; i++) {
